@@ -76,6 +76,8 @@ fun PolylinePolygonMap(){
     var isYellowPark by remember { mutableStateOf(false) }
 
     // derive visual properties from the current state
+    // helps with the ability to actually use the switch
+    // ch
     val polylineColor = if (isRed) Color.Red else Color.Blue
     val polylineWidth = if (isThick) 20f else 8f
     val polygonColor = if (isYellowPark) Color.Yellow.copy(alpha = 0.5f) else Color.Green.copy(alpha = 0.4f)
