@@ -24,6 +24,7 @@ import com.google.android.gms.maps.model.CameraPosition
 import com.google.android.gms.maps.model.LatLng
 import com.google.maps.android.compose.*
 // https://developer.android.com/reference/android/widget/Toast
+// looked cleaner
 import android.widget.Toast
 
 
